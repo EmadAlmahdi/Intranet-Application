@@ -1,19 +1,31 @@
 {
     "name": "rs_intranet",
+    "author": {
+        "name": "Emad Almahdi",
+        "email": "emad.almahdi@robursafe.com"
+    },
     "version": "1.0.0",
     "description": "Intranätet App",
     "main": "main.js",
-    "productName": "Intranätet",
-    "icon": "favicon.ico",
+    "build": {
+        "appId": "com.my_custom_intranet_application.app",
+        "productName": "Intranätet",
+        "directories": {
+            "output": "dist"
+        }
+    },
     "scripts": {
-        "exec": "nodemon --exec electron .",
-        "dist": "electron-builder",
+        "dev": "nodemon --exec electron .",
+        "build": "electron-builder",
         "start": "electron ."
     },
+    "license": "ISC",
     "devDependencies": {
-        "nodemon": "*",
         "electron": "^29.2.0",
         "electron-builder": "^24.13.3",
+        "nodemon": "^2.0.13"
+    },
+    "dependencies": {
         "electron-updater": "^6.1.8"
     }
 }

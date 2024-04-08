@@ -9,7 +9,7 @@ function createWindow() {
         }
     });
 
-    win.loadURL('https://intranetet');
+    win.loadURL('https://intranetet/__beta__/');
 
     const template = [
         {
