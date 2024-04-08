@@ -1,0 +1,19 @@
+{
+    "name": "rs_intranet",
+    "version": "1.0.0",
+    "description": "Intranätet App",
+    "main": "main.js",
+    "productName": "Intranätet",
+    "icon": "favicon.ico",
+    "scripts": {
+        "exec": "nodemon --exec electron .",
+        "dist": "electron-builder",
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "nodemon": "*",
+        "electron": "^29.2.0",
+        "electron-builder": "^24.13.3",
+        "electron-updater": "^6.1.8"
+    }
+}
