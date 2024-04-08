@@ -9,7 +9,7 @@ function createWindow() {
         }
     });
 
-    win.loadURL('https://intranet-robursafe.msappproxy.net/');
+    win.loadURL('https://intranetet');
 
     const template = [
         {
